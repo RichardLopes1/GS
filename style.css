@@ -8,10 +8,16 @@
     background-color: #000080;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 25%;
     left: 40%;
     padding: 30px;
     border-radius: 15px;
+}
+
+h1{
+    color: #ffff;
+    text-align: left;
+    height: 60px;
 }
 
 .tela-login input{

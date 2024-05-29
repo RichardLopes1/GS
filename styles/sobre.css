@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header{
+    background-color: #000080;
+    height: 50px;
+    text-align:center;
+    padding: 20px;
+}
+
+header a{
+    color: #fff;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+h4{
+    margin: 5px;
+
+}
+p{
+    margin:15px;
+    
+}
+
+address a{
+    margin: 15px;
+}

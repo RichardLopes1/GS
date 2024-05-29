@@ -6,18 +6,77 @@
     font-family: 'inter',sans-serif;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0c0ce94d;
-}
-
-.container{
+    background-color: #000080;
+ }
+ .container {
     width: 80%;
     height: 80vh;
+    justify-content: center;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+ }
+ 
+ 
+ .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+ }
+
+ .title{
+    padding: 20px;
+    text-align: left;
+ }
+
+ .input-box{
+   height: 30px;    
+ }
+
+.gender-tittle{
+    font-size: 20px;
+    height: 20px;
+}
+
+.gender-input{
+    height: 22px; 
+}
+
+.continue-button{
+    padding: 20px;
+    text-align: center;
+}   
+
+
+
+.continue-button button{
+    height: 30px;
+    width: 150px;
+    background-color: #c7c7c7;
+    border-radius: 5px;
+   
+}
+
+.continue-button :hover{
+    background-color:  #a0a0a0;
+}
+
+.continue-button a{
+    width: 30px;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-login{
+    text-align: center;
 }
