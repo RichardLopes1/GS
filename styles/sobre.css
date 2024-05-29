@@ -6,8 +6,10 @@ body{
 
 header{
     background-color: #000080;
-    height: 50px;
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
     padding: 20px;
 }
 
@@ -30,4 +32,51 @@ p{
 
 address a{
     margin: 15px;
+}
+
+
+.arrow-button{
+    text-decoration: underline;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+  
+    cursor: pointer;
+    position: center;
+}
+
+.arrow{
+    margin-left: 5px;
+}
+
+.hidden-text{
+    display: none;
+}
+
+/* botão da area de tecnologia*/
+.button-tec, .button-ap, .button-quem-somos, .button-valoriza,.button-fale{
+    text-decoration: underline;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    position: center;
+}
+
+.button-tec .button-ap  .button-quem-somos .button-valoriza .button-fale:hover{
+    background-color: aquamarine;
+    width: 250px;
+}
+
+
+
+/* rodapé da pagina*/
+footer{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    height: 35px;
+    text-align: center;
 }

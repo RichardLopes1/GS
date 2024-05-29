@@ -6,8 +6,10 @@ body{
 
 header{
     background-color: #000080;
-    height: 50px;
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
     padding: 20px;
 }
 
@@ -17,4 +19,22 @@ header a{
     text-decoration: none;
     font-size: 18px;
     
+
+}
+
+.card{
+
+background-color: white;
+border: 1px solid #bacdd8;
+padding: 8px;
+border-radius: 12px;
+max-width: 300px;
+margin: 0 auto;
+
+}
+
+.card img{
+    width: 300px;
+    display: flex;
+    justify-content: left;
 }
