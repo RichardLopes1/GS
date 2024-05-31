@@ -1,9 +1,9 @@
 document.getElementById("loginForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita o envio padrão do formulário
+event.preventDefault(); // Evita o envio padrão do formulário
     
     // Obter os valores dos campos de entrada
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
 
     // Simples verificação de campos vazios
     if (email.trim() === "" || password.trim() === "") {
