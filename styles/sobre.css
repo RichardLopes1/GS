@@ -6,7 +6,8 @@
   }
   
   body {
-    background-color: #f0f0f0;
+    background-image: url(/img/chat.png);
+    background-size: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
