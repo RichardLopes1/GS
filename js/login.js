@@ -11,11 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       return;
     }
 
-    // Se os campos estiverem preenchidos, você pode enviar o formulário ou realizar outras ações aqui
-    // Por exemplo, você pode enviar uma solicitação AJAX para verificar as credenciais do usuário no servidor
-    // Neste exemplo, apenas exibiremos um alerta indicando que o login foi bem-sucedido
     alert("Login bem-sucedido! Você será redirecionado para a próxima página.");
-
-    // Aqui você pode redirecionar o usuário para a próxima página após o login bem-sucedido
-    // window.location.href = "próxima_página.html";
+    window.location.href = "próxima_página.html";
+    
   });
