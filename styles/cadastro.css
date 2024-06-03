@@ -1,82 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'inter',sans-serif;
-}
-
 body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000080;
- }
- .container {
-    width: 80%;
-    height: 80vh;
-    justify-content: center;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
- }
- 
- 
- .form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding: 3rem;
- }
-
- .title{
-    padding: 20px;
-    text-align: left;
- }
-
- .input-box{
-   height: 30px;    
- }
-
-.gender-tittle{
-    font-size: 20px;
-    height: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.gender-input{
-    height: 22px; 
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+header {
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.continue-button{
-    padding: 20px;
-    text-align: center;
-}   
-
-
-
-.continue-button button{
-    height: 30px;
-    width: 150px;
-    background-color: #c7c7c7;
-    border-radius: 5px;
-   
+nav {
+  display: flex;
 }
 
-.continue-button :hover{
-    background-color:  #a0a0a0;
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
 
-.continue-button a{
-    width: 30px;
-    align-items: center;
-    color: #000000;
-    text-decoration: none;
+nav a:hover {
+  color: #007bff;
 }
 
-.link-login{
-    text-align: center;
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* align items horizontally */
+}
+
+.continue-button {
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center; /* Align the button itself */
+}
+
+.continue-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.link-login {
+  text-align: center;
+}
+
+.link-login a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-login a:hover {
+  text-decoration: underline;
 }
