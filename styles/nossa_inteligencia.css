@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+body{
+    background-image: url(/GS/img/veleiro.png);
+    background-size: cover;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+    
+}
+
+
+
+p {
+    text-indent: 2em;
+    
+}
+
+
+
+.paragrafos{
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 1000px;
+    
+    margin: 0px 250px;
+    
+
+   
+}

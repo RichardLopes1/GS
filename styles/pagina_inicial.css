@@ -27,6 +27,8 @@ header {
 
 nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
@@ -65,6 +67,13 @@ nav a:hover {
 
 .card__detalhes {
   padding: 15px;
+}
+
+.card__detalhes a{
+  display: flex;
+  justify-content: left;
+  padding: 30px 0px;
+  
 }
 
 .card__detalhes .tag {
