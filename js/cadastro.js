@@ -27,6 +27,7 @@ function validarTelefone(telefone) {
     return re.test(telefone);
 }
 
+// Função para validar quantidades de digitos
 function validarDigitosSenha(senha){
     const re = /^\d{6}$/;
     return re.test(senha)

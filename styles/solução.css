@@ -1,0 +1,50 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .paragrafos {
+    margin-bottom: 20px;
+  }
+  
+  .paragrafos p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0077cc;
+    margin-top: 20px;
+  }
+
+  .butao{
+    background-color: white;
+    padding-left: 50%;
+  }
+  
+  .butao a{
+    color: white;
+    background-color: #0077cc;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  .butao a:hover{
+    color: black;
+
+  }
