@@ -1,3 +1,6 @@
+
+
+
 body {
   background-image: url(../img/veleiro.png);
   background-size: cover;
@@ -17,20 +20,31 @@ body {
 
 header {
   width: 100%;
-  background-color: #000000;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
   z-index: 1000;
   border-bottom: 2px solid white;
 }
 
+.logo{
+  display: flex;
+  color: #4B0082;
+  justify-content: left;
+  text-align: left;
+  padding: 0 15px;
+
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+
 nav {
   display: flex;
+  justify-content: center;
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
@@ -58,6 +72,8 @@ nav a:hover {
 .input-box {
   margin-bottom: 10px;
 }
+
+
 
 label {
   display: block;

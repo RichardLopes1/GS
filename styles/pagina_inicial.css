@@ -17,10 +17,7 @@ body {
 
 header {
   width: 100%;
-  background-color: #000000;
   padding: 10px 0;
-  position: sticky;
-  top: 0;
   z-index: 1000;
   border-bottom: 2px solid white;
 }
@@ -32,7 +29,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
