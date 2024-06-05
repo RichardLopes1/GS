@@ -1,125 +1,109 @@
-
-
-
+/* Estilos gerais */
 body {
-  background-image: url(../img/veleiro.png);
-  background-size: cover;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  background-color: #fff;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 3px solid #000000;
-  border-radius: 50px;
-}
-
-header {
-  width: 100%;
-  z-index: 1000;
-  border-bottom: 2px solid white;
-}
-
-.logo{
-  display: flex;
-  color: #4B0082;
-  justify-content: left;
-  text-align: left;
-  padding: 0 15px;
-
-}
-
-.logo a{
-  text-decoration: none;
-}
-
-
-nav {
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
-  color: #000000;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #007bff;
-}
-
-.form-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.title h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-box {
-  margin-bottom: 10px;
-}
-
-
-
-label {
-  display: block;
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="password"] {
-  width: calc(100% - 20px);
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-}
-
-.continue-button {
-  margin-top: 20px; 
-  text-align: center; 
-}
-
-.continue-button button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.link-login {
-  text-align: center;
-}
-
-.link-login a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.link-login a:hover {
-  text-decoration: underline;
-}
+    background-image: url(../img/veleiro.png);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Cabeçalho e Navegação */
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contêiner do Formulário */
+  .container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-header {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .input-box {
+    width: 100%;
+  }
+  
+  .input-box label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .input-box input::placeholder {
+    color: #aaa;
+  }
+  
+  .continue-button {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .continue-button button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .continue-button button:hover {
+    background-color: #005fa3;
+  }
+  
+  .link-login {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+  }
+  
+  .link-login a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .link-login a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,24 +1,17 @@
-* {
+/* Estilos gerais */
+body {
+    background-image: url(../img/veleiro.png);
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
   }
   
-  body {
-    background-image: url(../img/veleiro.png);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
+  /* Cabeçalho e Navegação */
   header {
-    width: 100%;
-  padding: 10px 0;
-  z-index: 1000;
-  border-bottom: 2px solid white;
+    background-color: #0077cc;
+    color: white;
+    padding: 1em 0;
   }
   
   nav {
@@ -27,66 +20,58 @@
   }
   
   nav a {
-    color: #000000;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
-    transition: color 0.3s ease;
   }
   
   nav a:hover {
-    color: #007bff;
+    text-decoration: underline;
   }
   
+  /* Contêiner Principal */
   .container {
-    padding: 30px;
     max-width: 800px;
-    margin: 100px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #007bff;
-    color: #fff;
+  .arrow-button {
+    background-color: #0077cc;
+    color: white;
     border: none;
-    padding: 20px;
-    margin: 10px 0;
-    font-size: 18px;
-    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2em;
     border-radius: 5px;
-    transition:  0.3s;
+    margin-bottom: 1em;
+    cursor: pointer;
   }
   
-  button:hover {
-    background-color: #000000;
-  }
-  
-  button .arrow {
-    font-size: 20px;
-    transition: transform 0.3s ease;
+  .arrow-button .arrow {
+    float: right;
   }
   
   .hidden-text {
     display: none;
-    padding: 10px 15px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    padding: 1em;
+    border: 1px solid #0077cc;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
   }
   
   footer {
-    margin-top: auto;
-    padding: 10px 0;
-    background-color: #000000;
-    color: #fff;
     text-align: center;
+    padding: 1em;
+    background-color: #0077cc;
+    color: white;
+    position: fixed;
     width: 100%;
+    bottom: 0;
   }
   
