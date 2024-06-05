@@ -1,17 +1,29 @@
-document.getElementById("loginForm").addEventListener("submit", function(event) {
-event.preventDefault(); // Evita o envio padrão do formulário
-    
-    // Obter os valores dos campos de entrada
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
+document.addEventListener('DOMContentLoaded', function() {
+  const loginForm = document.getElementById('loginForm');
 
-    // Simples verificação de campos vazios
-    if (email.trim() === "" || password.trim() === "") {
-      alert("Por favor, preencha todos os campos.");
-      return;
+  loginForm.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    if (email === '' || password === '') {
+      alert('Por favor, preencha todos os campos.');
+    } else {
+      if (validateEmail(email) && validatePassword(password)) {
+        alert('Login bem-sucedido!');
+        window.location.href = 'pagina-inicial.html'; // Redireciona para a nova página
+      } else {
+        alert('Email ou senha inválidos.');
+      }
     }
-
-    alert("Login bem-sucedido! Você será redirecionado para a próxima página.");
-    window.location.href = "próxima_página.html";
-    
   });
+
+  function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+
+  function validatePassword(password) {
+    return password.length >= 6;
+  }
+});

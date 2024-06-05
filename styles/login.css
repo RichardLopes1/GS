@@ -1,10 +1,11 @@
+/* Estilos gerais */
 body {
-  background-image: url(../img/veleiro.png);
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+    background-image: url(../img/veleiro.png);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
 
   #pagina_acessada{
     color: wheat;
@@ -105,18 +106,28 @@ nav a#pagina_acessada {
     background-color: #005fa3;
   }
   
-  .link-login {
+  .link-cadastro {
     text-align: center;
     margin-top: 1em;
     font-size: 0.9em;
   }
   
-  .link-login a {
+  .link-cadastro a {
     color: #0077cc;
     text-decoration: none;
   }
   
-  .link-login a:hover {
+  .link-cadastro a:hover {
     text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0077cc;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
   }
   

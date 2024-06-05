@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="Icon" href="../img/barco.png" />
+  <script src="../js/login.js" defer></script>
+  <link rel="stylesheet" href="../styles/login.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../paginas/pagina_inicial.html">Início</a>
+      <a href="../paginas/cadastro.html">Cadastro</a>
+      <a href="../paginas/sobre.html">Sobre</a>
+      <a id="pagina_acessada" href="#">Login</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="form">
+      <form action="#" id="loginForm">
+        <div class="form-header">
+          <div class="title">
+            <h1>Login</h1>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email" required />
+          </div>
+
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" required />
+          </div>
+        </div>
+
+        <div class="continue-button">
+          <button type="submit">Entrar</button>
+        </div>
+        <br />
+
+        <div class="link-cadastro">
+          Não tem uma conta?
+          <a href="../paginas/cadastro.html">Cadastre-se aqui</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>Criado por Richard Lopes</footer>
+</body>
+
+</html>
