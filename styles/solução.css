@@ -5,15 +5,44 @@
   box-sizing: border-box;
 }
 
+#pagina_acessada{
+  color: wheat;
+}
+
+header {
+background-color: #0077cc;
+color: white;
+padding: 1em 0;
+text-align: center;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 1rem;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+nav a:hover {
+background-color: #0b3d91;
+}
+
+nav a#pagina_acessada {
+background-color: #0b3d91;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  margin-top: 50px; 
 }
 
 h1 {
   text-align: center;
   color: #000000;
+  margin-top: 30px; 
 }
 
 .container {
@@ -35,29 +64,12 @@ h1 {
   line-height: 1.6;
 }
 
-footer.rodape {
-  background-color: #0077cc;
-  color: #fff;
-  padding: 20px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.butao {
+footer {
   text-align: center;
-}
-
-.butao a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #33659b;
-  transition: background-color 0.3s;
-}
-
-.butao a:hover {
-  background-color: #2c4661;
+  padding: 1em;
+  background-color: #0077cc;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

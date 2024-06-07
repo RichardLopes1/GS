@@ -97,3 +97,13 @@ body {
     flex-direction: row-reverse;
   }
   
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0077cc;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

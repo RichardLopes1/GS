@@ -89,6 +89,8 @@ footer.rodape {
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .butao {
@@ -101,10 +103,10 @@ footer.rodape {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #33659b;
+    background-color: #27517e;
     transition: background-color 0.3s;
 }
 
 .butao a:hover {
-    background-color: #2c4661;
+    background-color: #18406b;
 }

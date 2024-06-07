@@ -118,3 +118,12 @@ nav a#pagina_acessada {
     text-decoration: underline;
   }
   
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0077cc;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
