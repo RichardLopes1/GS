@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
     margin: 0;
+    flex-wrap: wrap;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -11,7 +12,7 @@ body {
 
 .container {
     max-width: 800px;
-    width: 100%;
+    width: 500px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -85,8 +86,8 @@ body {
 footer.rodape {
     background-color: #0077cc;
     color: #fff;
-    padding: 20px 0;
     position: fixed;
+    padding: 20px 0;
     bottom: 0;
     width: 100%;
     display: flex;
