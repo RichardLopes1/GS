@@ -10,7 +10,6 @@ body {
     color: wheat;
   }
   
-  /* Cabeçalho e Navegação */
 header {
   background-color: #0077cc;
   color: white;
@@ -43,7 +42,6 @@ nav a#pagina_acessada {
   padding: 2rem;
 }
   
-  /* Contêiner do Formulário */
   .container {
     max-width: 600px;
     margin: 2em auto;
